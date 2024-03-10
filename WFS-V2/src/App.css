@@ -1,0 +1,102 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Section */
+section.phim {
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Hình ảnh */
+section.phim img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Tiêu đề phim */
+section.phim h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Thông tin phim */
+section.phim p {
+  font-size: 14px;
+  margin: 0 10px;
+}
+.css-1oqqzyl-MuiContainer-root {
+  background-color: white !important;
+  border-radius: 15px;
+  border-bottom: 10px black !important;
+}
+#Movie{
+  background-color: white !important;
+  border-radius: 15px;
+  border-bottom: 10px black !important;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background:none !important;
+  border: none !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1200px){
+  .css-1oqqzyl-MuiContainer-root {
+    width: 1050px !important;
+    height: 650px !important;
+  }
+  .b2{
+    width: 850px !important;
+    height: 450px !important;
+  }
+  a{
+    color: rgb(98, 96, 96) !important;
+    font-size: 25px;
+  }
+}
+@media (min-width: 600px){
+  .css-1oqqzyl-MuiContainer-root {
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
+.b2{
+  margin-left: 40% !important;
+    margin-right: 40% !important;
+}
+}
